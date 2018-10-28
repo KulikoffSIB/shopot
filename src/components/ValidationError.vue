@@ -1,6 +1,6 @@
 <template>
-    <div v-if="show" class="text-right">
-        <div v-for="m in messages" :key="m">
+    <div v-if="show">
+        <div v-for="m in messages" :key="m" style="color: crimson">
             {{m}}
         </div>
     </div>
