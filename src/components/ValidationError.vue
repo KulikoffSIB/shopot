@@ -19,9 +19,10 @@
 
                 if (this.validation.$dirty) {
                     if (this.hasValidationError('required')) {
-                        messages.push('Please enter a value')
-                    } else if (this.hasValidationError('email')) {
-                        messages.push('Please enter a valid email address')
+                        messages.push('Please enter word')
+                    }
+                    if (this.hasValidationError('customValidator')) {
+                        messages.push('Please enter a \"works\" word')
                     }
                 }
 
