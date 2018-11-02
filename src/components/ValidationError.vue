@@ -22,7 +22,7 @@
                         messages.push('Please enter word')
                     }
                     if (this.hasValidationError('customValidator')) {
-                        messages.push('Please enter a \"works\" word')
+                        messages.push('Please enter a "works" word')
                     }
                 }
 
