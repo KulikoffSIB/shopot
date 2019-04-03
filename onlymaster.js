@@ -1,0 +1,1 @@
+let onlyMasterdata = 'only master data';
